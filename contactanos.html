@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - Chevrolet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="menu.html">
+                <img src="C.png" alt="Regresar al inicio">
+            </a>
+        </div>
+        <nav class="menu">
+            <a href="menu.html">inicio</a>
+            <a href="productos.html">productos</a>
+            <a href="contactanos.html">contactanos</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Contáctanos</h1>
+            <p>Chevrolet México - Distribuidor autorizado. Aquí tienes los datos oficiales de la empresa.</p>
+
+            <div class="contenedor">
+                <section>
+                    <h2>Datos de la empresa</h2>
+                    <p><strong>Dirección:</strong> Av. Chevrolet 123, Ciudad de México</p>
+                    <p><strong>Teléfono:</strong> +52 55 1234 5678</p>
+                    <p><strong>Correo:</strong> contacto@chevrolet.com</p>
+                    <p><strong>Horario:</strong> Lunes a viernes, 9:00 - 18:00</p>
+                </section>
+
+                <section>
+                    <h2>Información del vehículo</h2>
+                    <form class="form-auto">
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefono">Teléfono:</label>
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="modelo">Modelo del carro:</label>
+                            <input type="text" id="modelo" name="modelo" placeholder="Ej: Cruze, Spark, etc." required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="anio">Año:</label>
+                            <input type="number" id="anio" name="anio" min="1900" max="2099" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="color">Color:</label>
+                            <input type="text" id="color" name="color" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos sobre tu carro o consulta"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit">Enviar información</button>
+                    </form>
+                </section>
+            </div>
+        </section>
+    </main>
+<footer>
+    <p>Página creada por Uriel y Oswaldo</p>
+</footer>
+</body>
+</html>
